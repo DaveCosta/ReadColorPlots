@@ -2,10 +2,11 @@
 *.jar
 *.war
 *.ear
-*.class
 *.iml
 *~
-*/.DS_Store
+**/*~
+**/*.class
+**/.DS_Store
 
 # Specific files/dir to avoid 
 LICENSE.txt
@@ -18,4 +19,3 @@ build/
 .idea/
 target/
 out/
-
