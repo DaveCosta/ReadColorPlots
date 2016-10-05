@@ -1,0 +1,21 @@
+# Files to avoid
+*.jar
+*.war
+*.ear
+*.class
+*.iml
+*~
+*/.DS_Store
+
+# Specific files/dir to avoid 
+LICENSE.txt
+.project
+.classpath
+.gradle
+.settings
+doc/
+build/
+.idea/
+target/
+out/
+

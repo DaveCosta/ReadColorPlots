@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Created-By: David Emmanuel-Costa
+Main-Class: edu.mephys.tools.RCPlots

@@ -1,0 +1,31 @@
+
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.control.Label?>
+
+
+<GridPane hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml" fx:controller="edu.mephys.tools.RCPlotsLib.RCPlotsController">
+
+    <padding>
+        <Insets bottom="0.0" left="10.0" right="0.0" top="10.0"/>
+    </padding>
+
+    <Text fx:id="point" text="ola" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+
+    <Text fx:id="info" text="ola" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+
+    <Canvas fx:id="canvas"  GridPane.columnIndex="1" GridPane.rowIndex="0" />
+
+    <Canvas fx:id="column" GridPane.columnIndex="2" GridPane.rowIndex="0" />
+
+    <Canvas fx:id="iv" onMouseClicked="#handleClickEvent" GridPane.rowIndex="0" GridPane.columnIndex="0" />
+
+    <Rectangle fx:id="rec" GridPane.rowIndex="5" GridPane.columnIndex="0" width="70" height="70" arcWidth="10" arcHeight="10" />
+
+    <Label fx:id="dimlabel" text="" GridPane.rowIndex="2" GridPane.columnIndex="0" />
+
+</GridPane>
