@@ -5,8 +5,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <!-- project coordinates - values which uniquely identify this project -->
-  <groupId>com.konodi.ingenyus</groupId>
-  <artifactId>ingenyus</artifactId>
+  <groupId>edu.mephys.tools</groupId>
+  <artifactId>tools</artifactId>
   <version>0.0.1</version>
   <packaging>jar</packaging>
 
